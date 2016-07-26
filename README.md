@@ -1,4 +1,4 @@
-== Subhuman (Humanizing library for Go)
+## Subhuman (Humanizing library for Go)
 
 The current 'go test' output is as follows:
 
@@ -14,19 +14,19 @@ The current 'go test' output is as follows:
 	TestHumanTimeConcise: Expected  00h01m04s and got  00h01m04s SUCCESS
 	TestHumanTimeConcise: Expected  01h01m07s and got  01h01m07s SUCCESS
 
-==== Usage:
+#### Usage:
 
-====== HumanSize(int64) string
+###### HumanSize(int64) string
 
 fmt.Println(HumanSize(3232323232))
 // Returns: "3.01GB"
 
-====== HumanTimeColon(int64) string
+###### HumanTimeColon(int64) string
 
 fmt.Println(HumanTimeColon(32))
 // Returns: "00:00:32"
 
-====== HumanTimeConcise(int64) string
+###### HumanTimeConcise(int64) string
 
 fmt.Println(HumanTimeConcise(32))
 // Returns: "00h00m32s"
