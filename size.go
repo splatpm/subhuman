@@ -27,7 +27,7 @@ func HumanSize(s int64) string {
 					bigB)
 			}
 			return fmt.Sprintf("%.02f%s%s",
-				float64(s/smap[value]),
+				float64(s)/float64(smap[value]),
 				string(value[0]),
 				bigB)
 		}

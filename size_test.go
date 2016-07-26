@@ -8,10 +8,10 @@ import (
 func TestHumanSize(t *testing.T) {
 	for k, v := range map[int64]string{
 		32:         "32B",
-		3232:       "3.00KB",
-		323232:     "315.00KB",
-		32323232:   "30.00MB",
-		3232323232: "3.00GB"} {
+		3232:       "3.16KB",
+		323232:     "315.66KB",
+		32323232:   "30.83MB",
+		3232323232: "3.01GB"} {
 		ret := HumanSize(k)
 		if ret != v {
 			t.Error("TestHumanSize       : Expected '", v, "' but got ", ret)
