@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fuzzy/subhuman.svg?branch=master)](https://travis-ci.org/fuzzy/subhuman)
+[![Build Status](https://travis-ci.org/splatpm/subhuman.svg?branch=master)](https://travis-ci.org/splatpm/subhuman)
 ## Subhuman (Humanizing library for Go)
 
 The current 'go test' output is as follows:
